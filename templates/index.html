@@ -80,7 +80,7 @@
             <form
               method="POST"
               ,
-              action="http://localhost:5000/extracttext"
+              action="/extracttext"
               ,
               enctype="multipart/form-data"
               class="main__menu--tool-form1"
@@ -91,7 +91,7 @@
             <form
               method="POST"
               ,
-              action="http://localhost:5000/extracttable"
+              action="/extracttable"
               ,
               enctype="multipart/form-data"
               class="main__menu--tool-form2"
@@ -105,7 +105,8 @@
               </button>
               <button class="download-csv">
                 <a href="{{url_for('download_file')}}">Download .csv</a>
-              </button>
+              <!-- </button>
+              <button class="download-xls">Download .xls</button> -->
             </div>
           </div>
         </div>
