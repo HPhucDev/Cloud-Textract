@@ -6,8 +6,8 @@
 <br> Nguyễn Minh Luân&emsp;19110395
 <br>
 <h3>How to run my code :</h3> 
-<br>Step 1 :  You need open Terminal and run " pip3 install boto3 " and run " pip3 install flask "
+<br>Step 1 :  You need open Terminal and run " pip3 install boto3 " and run " pip3 install flask " and run "pip3 install html-to-json"
 <br>Step 2 :  Clone Code 
-<br>Step 3 :  Replace  aws_access_key_id, aws_secret_access_key, aws_session_token in app.py with your aws_access_key_id, aws_secret_access_key, aws_session_token
-<br>Step 4 :  Run file app.py
+<br>Step 3 :  Run file app.py
+<br>Step 4 :  In Login page, please login with AWS account 
 
